@@ -1,0 +1,18 @@
+{
+  "name": "further-south",
+  "version": "1.0.0",
+  "description": "with two given location find which one if further North, South, East or West",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "@google/maps": "^0.5.5"
+  }
+}
