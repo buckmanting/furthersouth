@@ -1,6 +1,8 @@
+const apiKeys = require('./api-key.json');
+
 const readline = require('readline');
 const googleMapsClient = require('@google/maps').createClient({
-	key: require('api-key').GOOGLE_MAPS
+	key: apiKeys.GOOGLE_MAPS
 });
 
 const rl = readline.createInterface({
